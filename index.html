@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- IMPORTANT: Per visualizació correcte a RESPONSIVE-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+    <!--Enllaç amb el CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!--Tipografía OSWALD google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;300;400;500;700&family=Inconsolata:wght@200;300;400;500&family=Oswald:wght@200;300;400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- capçalera -->
+    <header>
+        <div class="logo">
+            <h1>•NATURAFIA•</h1>
+        </div>
+
+        <!-- Barra de menu -->
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">INICI</a></li>
+                <li><a href="#">PRODUCTES</a></li>
+                <!-- <li>Tallers</li>
+                            <li>Fotografies</li>
+                            <li>Entitats</li>
+                            <li>esdeveniments</li> -->
+                <li><a href="#">BUSCADOR</a></li>
+                <li><a href="#">NOSALTRES</a></li>
+            </ul>
+        </nav>
+
+        <!-- Barra d'icones usuari i carrito -->
+        <div class="icones">
+            <ul>
+                <li><a href="#"><img src="imatges/usuari.svg" width="45" height="45"></a></li>
+                <li><a href="#"><img src="imatges/carrito.svg" width="45" height="45"></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!--Contingut-->
+
+    <section>
+        <!---------Primer bloc amb l'imatge principal------------->
+        <div class="contenidor">
+            <article class="principal">
+                <img src="imatges/portada.jpg" alt="portada_bloc1">
+            </article>
+        </div>
+        <!---------Primer bloc  NATURAFIA i TEXT------------------>
+        <div class="naturafia">
+
+            <h1>NATURAFIA</h1>
+            <br>
+            <p> És un espai on fotògrafs/fotògrafes i entitats mostren la seva feina. Un espai on recopilem la fauna i
+                flora de catalunya i les entitats que ajuden a conservar-la.
+                <br>
+                <br>Mei eu mollis albucius, ex nisl contentiones vix. Duo persius volutpat at, cu iuvaret epicuri mei.
+                Duo posse pertinacia no, ex dolor contentiones mea. Nec omnium utamur dignissim ne. Mundi lucilius
+                salutandi an sea, ne sea aeque iudico comprehensam. Populo delicatissimi ad pri. Ex vitae accusam
+                vivendum pro.
+                <br>
+                <br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+                in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
+                dolore te feugait nulla facilisi.
+            </p>
+        </div>
+
+        <!--Segon bloc amb 4 imatges de productes-->
+
+        <div class="fotos">
+            <div class="div-img">
+                <img class="img" src="imatges/taller_video.jpeg" alt="Taller"></a>
+                <div class="text">TALLERS</div>
+            </div>
+        </div>
+
+        <div class="fotos">
+            <div class="div-img">
+                <img class="img" src="imatges/fotografies.jpg" alt="Fotografies"></a>
+                <div class="text">FOTOGRAFIES</div>
+            </div>
+        </div>
+
+
+        <div class="fotos">
+            <div class="div-img">
+                <img class="img" src="imatges/entitats.jpg" alt="entitats"></a>
+                <div class="text">ENTITATS</div>
+            </div>
+        </div>
+
+        <div class="fotos">
+            <div class="div-img">
+                <img class="img" src="imatges/events.jpg" alt="esdeveniments"></a>
+                <div class="text">ESDEVENIMENTS</div>
+            </div>
+        </div>
+
+        <!--tercer bloc amb TEXT NOSALTRES-->
+
+        <div class="publicitat">
+            <h1>NOSALTRES</h1>
+            <p>Aquí tens el teu espai per donar-te a conèixer tan si ets fotògraf/a o una entitat. Busquem persones i
+                entitats que estiguin interessades en dónar a conèixer la biodiversitat de Catalunya.
+                <br>
+                <br>Mei eu mollis albucius, ex nisl contentiones vix. Duo persius volutpat at, cu iuvaret epicuri mei.
+                Duo posse pertinacia no, ex dolor contentiones mea. Nec omnium utamur dignissim ne. Mundi lucilius
+                salutandi an sea, ne sea aeque iudico comprehensam. Populo delicatissimi ad pri. Ex vitae accusam
+                vivendum pro.
+                <br>
+                <br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
+                in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
+                dolore te feugait nulla facilisi.
+            </p>
+        </div>
+
+        <div class="formulari">
+            <form action="#" method="POST" autocomplete="off">
+                <h3>Posa't en contacte amb nosaltres:</h3>
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" size="30" maxlength="10"
+                        placeholder="Introdeix el teu nom" required>
+                </p>
+                <p>
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo" placeholder="Introdueix el teu correu" required>
+                    <button type="submit">Enviar</button>
+                </p>
+            </form>
+        </div>
+
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--Peu de pàgina-->
+    <footer>
+        <div class="informacio">
+            <ul>
+                <li class="titol">Sobre nosaltres</li>
+                <li><a href="#">Contacta'ns</a></li>
+                <li><a href="#">Estat de la compra</a></li>
+            </ul>
+        </div>
+
+        <div class="about">
+            <ul>
+                <li class="titol">Més informació</li>
+                <li><a href="#">Privacitat</a></li>
+                <li><a href="#">Avís legal</a></li>
+                <li><a href="#">Política de cookies</a></li>
+                <li><a href="#">Política de Privacitat</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
