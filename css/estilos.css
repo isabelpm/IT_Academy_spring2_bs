@@ -35,7 +35,6 @@ main {
 
 /* --------CAROUSEL---------*/
 
-
 /* Carousel base class */
 .carousel {
     margin-bottom: 4rem;
@@ -126,10 +125,10 @@ main {
     
 }
 
-.informacio a:hover,
+/* .informacio a:hover,
 .about a:hover {
     background-color: rgb(54, 136, 124);
-}
+} */
 
 
 
