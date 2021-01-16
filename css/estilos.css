@@ -33,11 +33,9 @@ main {
     padding: 0px;
 }
 
-/* CAROUSEL*/
+/* --------CAROUSEL---------*/
 
-.carousel-indicators{
-    width: auto;
-}
+
 /* Carousel base class */
 .carousel {
     margin-bottom: 4rem;
@@ -45,7 +43,7 @@ main {
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-    bottom: 16rem;
+    bottom: 10rem;
     z-index: 10;
 }
 
