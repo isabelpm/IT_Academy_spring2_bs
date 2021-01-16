@@ -1,576 +1,156 @@
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding: 0;
-    background-color: #00b894;
-    font-family: 'Inconsolata', monospace;
-    /* background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%231bbd9e' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E"); */
+/* Quita el padding del contenedor */
+
+.container-fluid {
+    padding: 0px;
+
+    /* color: #FFFFFF; */
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%23c1e1db' fill-opacity='0.05'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
-}
-
-/*_______________________________CAPÇALERA_______________________________*/
-    
-header{
-     /*Flexbox*/
-    display:flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-content: center;
-    /*CSS*/
-    padding: 0px 10px 0px 10px;
-}
-
-/*---texto naturafia---*/
-.logo{
-    /*Flexbox*/
-    display:flex;
-    flex: 1 1 auto; /*es flexible (se usa habitualmente)*/
-    justify-content: flex-start;
-    align-items: center;
-    /*CSS*/
     
 }
 
-.logo h1{
-    /* Propietats CSS*/
-    font-weight: 500; /*estilo tipografia fino o grueso*/
-    font-size: 3rem; /* tamañao relativo al valor de la fuente del elemento html*/
-    font-family: 'Inconsolata', monospace;
-    color:white;
-    margin: 20px 20px 30px 20px;
+.container {
     
 }
 
-/*_____________________________NAVEGADOR CAPÇALERA_________________________*/
-
-.menu{
-    /* Propietats Flexbox */
-    display:flex;
-    flex-flow:column wrap;
-    flex: 5 auto; 
-    justify-content: center;
-    /* Propietats CSS*/
-    font-size: 1.3rem;
-    font-family: 'Inconsolata', monospace;
-                    
-}
-.menu ul{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    /* Propietats CSS*/
-    list-style: none;  
-}   
-/* Comportament links del navegador*/
-.menu a{
-    text-decoration: none;
-    color:#FFFFFF; /*color text menú navegador*/
-    font-weight: 600;
-}
-    
-.menu a:hover {
-    background-color:#55efc4; /*canvia de color quan pases el cursor*/
-        
+/* Quita el borde del jumbotron */
+.jumbotron {
+    border-radius: 0;
+    margin-bottom: 0;
+    background-color: #00b894;
 }
 
-/*Icones usuari i compra*/
-.icones {
-    /* Propietats Flexbox*/
-    display:flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    /* Propietats CSS*/
-    margin: 10px 10px 10px 0px;
-       
-}
-    
-.icones ul{ /*icones carrito i usuari*/
-    /* Propietats Flexbox */
-    display:flex;
-    justify-content: center;
-    /* Propietats CSS*/
-    list-style: none; 
-}
-    
-.icones a{ /*color text menú navegador*/
-    margin:0px 5px 0px 5px; 
-    text-decoration: none;
-    color:#55efc4;
-}
-        
-.icones a:hover {    
-    background-color:#55efc4; /*canvia de color quan pases el cursor*/
+/* Ocupa el espacio al 100% */
+.col-md-12 {
+    padding-right: 0;
+    padding-left: 0;
 }
 
-/*_______________________________BLOC IMATGE PRINCIPAL _______________________________*/
-section{
-    /* Propietats Flexbox */
-    display: flex;
-    flex-flow:row wrap;
-    justify-content: center;
-    align-items: center;
+/* He modificado el row -15px de bs4 ya que nos daba espacio en el lateral y scroball */
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
-.contenidor{
-    /* Propietats Flexbox */
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    
+/* añado padding al main */
+main {
+    padding: 0px;
 }
 
-.principal img{
-    /* Propietats Flexbox */
-    width: 100%;
-    display:flex;
-    /*CSS*/
-    padding: 0px 0px 100px 0px; 
-    /* espacio entre foto y caja naturafia */
+/* CUSTOMIZE THE CAROUSEL*/
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
 }
 
-/*_____________________________BLOC CAIXA NATURAFIA____________________________________*/
-
-.naturafia{             
-    /* Propietats Flexbox */
-    display: flex;
-    flex-flow:row nowrap;
-    justify-content: flex-start; /*contenido que empieza al principio en la caja*/
-    align-items: center;
-
-    /*CSS*/
-    width: 80%;
-    
-    
-    
-}
-.naturafia h1{
-    /*flexbox*/
-    display: flex;
-    justify-content: center;
-    
-    /* Propietats CSS*/
-    font-weight: 600;
-    font-size: 3.5rem;
-    margin:15px;
-    color:white;
-    
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
 }
 
-.naturafia p{
-    align-items: baseline;
-    justify-content: space-between;
-    /*CSS*/
-    font-weight: 400;
-    font-size: 1.2rem;
-    color:white;
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.carousel-item>img {
+    position: relaltive;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: auto;
+    /* height: 32rem; */
+}
+
+
+
+
+
+
+
+
+
+
+/* TEXT NATURA I NOSALTRES */
+.texto .col-md-6 {
+    margin-bottom: 1.3rem;
     text-align: justify;
-    margin-top:0px;
-    padding:0px 20px 20px 20px;
-    
 }
 
-/*______________________________FOTOS APARTATS WEB__________________________________*/
-.fotos {
-    /* Propietats Flexbox pare*/
-    display: flex;
-    align-items: center;
-    width: 25%;
-    /* Propietats CSS*/
-    margin: 100px auto;
-    position: relative;
-  }
-  .div-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
-  }
-  .div-img .img {
-    -webkit-border-radius:  10px 10px;
-    -moz-border-radius:  10px 10px;
-    border-radius: 10px 10px; 
-    padding:2px;
-    
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    transform: scale(1);
-    -ms-transform: scale(1);
-    -moz-transform: scale(1);
-    -webkit-transform: scale(1);
-    -o-transform: scale(1);
-    -webkit-transition: all 500ms ease-in-out;
-    -moz-transition: all 500ms ease-in-out;
-    -ms-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
-    
-  }
-  .div-img .text {
-    color:white;
-    font-size: 1.8rem;
-    font-weight: 800;
-    padding-top: 5px;
-    display: block;
-    text-align: center;
-    width: 100%;
-    transform: translate(0px);
-    -webkit-transition: all 500ms ease-in-out;
-    -moz-transition: all 500ms ease-in-out;
-    -ms-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
-    opacity: 0;
-    transition: transfom opacity 1.5s;
-  }
-  .div-img:hover .img {
-    transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    -moz-transform: scale(0.8);
-    -webkit-transform: scale(0.8);
-    -o-transform: scale(0.8);
-    
-  }
-  .div-img:hover .text {
-    transform: translate(0px, -20px);
-    opacity: 1;
-  }
-
-/*___________________________BLOC PUBLICITAT / COL·LABORACIÓ________________________*/
-
-.publicitat{
-     /* Propietats Flexbox */
-    display: flex;
-    flex-flow:row nowrap;
-    justify-content: flex-start; /*contenido que empieza al principio en la caja*/
-    align-items: center;
-
-    /*CSS*/
-    width: 80%;
-    
-    
-    
-}
-
-.publicitat h1{
-    /*flexbox*/
-    align-items: center; 
-    /* Propietats CSS*/
+.texto h1 {
     font-weight: 600;
-    font-size: 3.5rem;
-    margin:15px;
-    color:white;
     text-align: center;
-        
-} 
-
-.publicitat p{
-    justify-content: space-between;
-    /*CSS*/
-    padding:0px 20px 20px 20px;
-    font-weight: 400;
-    font-size: 1.2rem;
-    text-align: flex-start;
-    text-align: justify;
-    color:white;
 }
 
-/*-----Apartat formulari-----*/
-
-.formulari{
-    /* Propietats Flexbox */
-    display: flex;
-    flex-flow:row nowrap;
-    justify-content: flex-start; /*contenido que empieza al principio en la caja*/
-    align-items: flex-start;
-
-    /*CSS*/
-    margin:30px 30px 30px 30px;
-    padding: 40px 40px 40px 40px; 
-    border: 2.5px solid rgb(252, 252, 252);
+.texto p {
+    text-align: start;
 }
 
-/*titol estàs interessat?*/
-.formulari h3{
-    /*flexbox*/
+/* FORMULARI */
+.formulari {
     text-align: center;
-    /*CSS*/
-    font-size:1.3rem;
-    margin:0px 0px 30px 0px;
-    color:white;
-}
-.formulari p{
-    /*CSS*/
-    margin-top:0px;
-    padding:0px 20px 20px 40px;
-    font-weight: 400;
-    font-size: 1.2rem;
-    text-align: flex-start;
-    color:white;
 }
 
-input[type=text] {
-    background: #fff;
-    position: relative;
-    width: 300px;
-    padding: 5px 10px 10px 5px;
-    border-radius: 2px;
-    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
-    transition: transform .1s ease-in-out;
-    border: none;
-    font-size: 15px;
-    
-  }
-input[type=email] {
-    background: #fff;
-    position: relative;
-    width: 300px;
-    padding: 5px 10px 10px 5px;
-    border-radius: 2px;
-    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
-    transition: transform .1s ease-in-out;
-    border: none;
-    font-size: 15px;
-    }
-button{ /*botón enviar*/
-    cursor: pointer;
-    background-color: white;
-    box-shadow: 0 16px 24px 2px rgba(255, 246, 246, 0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
-    padding: 5px 10px 10px 5px;
-    border-radius: 3px;
-    padding: 3px 6px;
-    border-width: 0px;
-    border-style: none;
-}
-    
-/*_______________________________Footer____________________________________*/
 
-footer{
+/*FOOTER*/
+
+.informacio {
     /*Flexbox*/
     display: flex;
-    flex-flow:row wrap;
+    flex-flow: nowrap;
+    /* height: 50px; */
+
+    /*se amolda espacio existente, sin salto de linia*/
     justify-content: center;
     align-items: baseline;
-    /*CSS*/
-    margin: 15px;
-    padding:15px 15px 15px 50px;
-    
-}
-/*Títols dels llistats del footer*/
-.titol{
-    /*CSS*/
-    font-size: 1.5rem;
-    list-style: none;  
-    color:white;
+    font-family: 'Inconsolata';
 
-}
-/*Llistats del footer*/
-.informacio, .about{
-    /*Flexbox*/
-    display: flex;
-    flex-flow:co nowrap; /*se amolda espacio existente, sin salto de linia*/
-    justify-content: center;
-    align-items: center;
-    
     /*CSS*/
     text-align: center;
     margin: 15px 15px 15px 15px;
     list-style: inside;
-    color:white;
+    color: black;
 }
-.informacio ul, .about ul{
-    margin:0px;
-    padding:0px;
+
+.informacio ul {
+    margin: 0px;
+    padding: 20px;
+    align-items: baseline;
     /*css*/
     list-style: none;
     text-align: center;
-    color:white;
-   
-}
-/*Botons*/
-.informacio a, .about a{
-    margin:0px 5px 0px 5px; 
-    text-decoration: none;
-    color:white;
-    font-size: 0.85rem;    
-}
-.informacio a:hover, .about a:hover{
-    background-color: rgb(54, 136, 124);
-}
 
 
-
-
-/* ________________________________________ MEDIA QUERY________________________________________*/
-
-@media all and (max-width: 800px){ /* La pàgina de 0px a 800px realitzarà els següents canvis*/
-
- /*------HEADER-----*/
- header{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    padding:10px;
 }
 
-.menu {
-    flex-direction: column ;
-    justify-content: center;
-    flex: 1 1 auto;
-    height: auto;
-}
-
-.menu ul {
-    flex-direction: column ;
-    height: auto;
-    margin: auto;
-}
-
-.menu ul li{
-    margin:10px;
-}
-.icones{
-    flex-direction: column ;
-    justify-content: center;
-    align-content: center;
-}
-
-.icones ul li{
-    flex-direction: row;
-    justify-content: center;
-    padding: 0px;
-}
-/*------SECTION-----*/
-
-.contenidor{
-    flex-direction: column;
-    height: auto;
-}
-.naturafia{
-    flex-direction: column;
-    height: auto;
-    width: 100%;
-    
-}
-.naturafia h1{
-    
-    height: auto;
-    text-align: center;
-    justify-items: center;
-}  
-
-.naturafia p{
-    
-    text-align: left;
-    
-}
-/* ----------------BLOC FOTOS---------------------- */
-.fotos{
-    f /* flexbox */
-    flex-wrap: wrap;
-    justify-content: center;
-    flex: 1 0 auto;
-    width: 60%;
-    
-}
-.div-img {
-    display: block;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
-  }
-  .div-img .img {
-    -webkit-border-radius:  10px 10px;
-    -moz-border-radius:  10px 10px;
-    border-radius: 10px 10px; 
-    padding:2px;
-    
-  
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    transform: scale(1);
-    -ms-transform: scale(1);
-    -moz-transform: scale(1);
-    -webkit-transform: scale(1);
-    -o-transform: scale(1);
-    -webkit-transition: all 500ms ease-in-out;
-    -moz-transition: all 500ms ease-in-out;
-    -ms-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
-    
-  }
-.div-img .text {
-    /* flexbox */
-    flex-wrap:wrap;
-    flex-direction: column; 
-    /* CSS */
-    color:white;
-    font-size: 1.5rem;
-    font-weight: 800;
-    padding-top: 5px;
-    display: block;
-    text-align: center;
-    width: 100%;
-    transform: translate(0px);
-    -webkit-transition: all 500ms ease-in-out;
-    -moz-transition: all 500ms ease-in-out;
-    -ms-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
-    opacity: 0;
-    transition: transfom opacity 1.5s;
-  }
- 
-  .div-img:hover .img {
-    transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    -moz-transform: scale(0.8);
-    -webkit-transform: scale(0.8);
-    -o-transform: scale(0.8);
-    
-  }
-  .div-img:hover .text {
-    transform: translate(0px, -20px);
-    opacity: 1;
-  }
-
-/* ----------------BLOC PUBLICITAT---------------- */
-.publicitat{
-    flex-direction: column;
-    height: auto;
-    width: 100%; 
-}
-
-.publicitat h1{
-    height: auto;
-    text-align: center;
-    justify-items: center;
-}  
-}  
-
-.publicitat p{
-    text-align: left;
-}
-/*-----FOOTER-----*/
-.titol{
-    /*CSS*/
-    font-size: 1rem;
+.informacio .titol {
     font-weight: 600;
-    list-style: none;  
-    color:white;
-    padding:0 0 25px 0px;
-
-}
-.information, .about{
-    flex-direction: row ;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 0px 0px 0px;
-    padding-right: 20px;
-    font-size: 0.6rem;
 }
 
+.informacio a {
+    color: black;
+}
+
+/* .informacio a:hover,
+.about a:hover {
+    background-color: rgb(54, 136, 124);
+} */
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
