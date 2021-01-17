@@ -27,8 +27,22 @@
 }
 
 /* añado padding al main */
-main {
+.main {
     padding: 0px;
+}
+
+.logo{
+    width: 70px;
+    margin: 0 20px 0 0;
+}
+.menu-posicion{
+    justify-content: flex-end;
+}
+
+a.navbar-brand,
+.nav-link {
+    display: flex;
+    align-items: center;
 }
 
 /* --------CAROUSEL---------*/
