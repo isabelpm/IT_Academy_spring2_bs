@@ -10,10 +10,3 @@ La capçalera ha de tenir un navbar + logo i uns enllaços per a fer login/regis
 Al clicar sobre login i registre, s’ha d’obrir una finestra modal per accedir-hi. Evidentment han de tenir diferents dades.
 
 La pàgina Home Page ha de tenir un slider de mínim 4 imatges.
-<<<<<<< HEAD
-=======
-
-# Nivell 2:
-
-En aquest exercici et demanem que personalitzis completament la paleta de colors. Redefineix completament les classes de color.
->>>>>>> develop
