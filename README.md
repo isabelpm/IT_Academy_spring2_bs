@@ -9,9 +9,9 @@ _Partint del concepte de Mobile First, volen que facis la HOME PAGE del projecte
 _La pràctica es divideix en **2 nivells**._
 
 
-### Nivell 1 📋
+# Nivell 1 📋
 
-# Exercici 1
+### Exercici 1
 
 Bootstrap des de CDN i des d’arxius descarregats. La versió que no s’utilitzi ha d’estar comentada.
 
@@ -22,9 +22,9 @@ Al clicar sobre login i registre, s’ha d’obrir una finestra modal per accedi
 La pàgina Home Page ha de tenir un slider de mínim 4 imatges.
 
 
-### Nivell 2 📋
+# Nivell 2 📋
 
-# Exercici 2
+### Exercici 2
 
 En aquest exercici et demanem que personalitzis completament la paleta de colors. Redefineix completament les classes de color
 
@@ -32,6 +32,7 @@ En aquest exercici et demanem que personalitzis completament la paleta de colors
 
 ## Previsualización
 [Naturafia](https://3l72r.csb.app/)
+[Código](https://codesandbox.io/s/distracted-tu-3l72r?resolutionWidth=898&resolutionHeight=675&file=/css/estilos.css)
 
 
 ## Autora ✒️
