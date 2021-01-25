@@ -29,7 +29,7 @@ En aquest exercici et demanem que personalitzis completament la paleta de colors
 
 
 
-## Previsualización WEB
+## Previsualización WEB 💻
 [Web](https://3l72r.csb.app/)
 
 
