@@ -11,7 +11,7 @@ _La pràctica es divideix en **2 nivells**._
 
 ### Nivell 1 📋
 
-#Exercici 1
+# Exercici 1
 
 Bootstrap des de CDN i des d’arxius descarregats. La versió que no s’utilitzi ha d’estar comentada.
 
@@ -31,7 +31,7 @@ En aquest exercici et demanem que personalitzis completament la paleta de colors
 
 
 ## Previsualización
-[Código](https://3l72r.csb.app/)
+[Naturafia](https://3l72r.csb.app/)
 
 
 ## Autora ✒️
