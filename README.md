@@ -8,7 +8,7 @@ _Partint del concepte de Mobile First, volen que facis la HOME PAGE del projecte
 _La pràctica es divideix en **2 nivells** Crearem la nostra web amb BS5._
 
 
-# Nivell 1 📋
+## Nivell 1 📋
 
 ### Exercici 1
 
@@ -21,7 +21,7 @@ Al clicar sobre login i registre, s’ha d’obrir una finestra modal per accedi
 La pàgina Home Page ha de tenir un slider de mínim 4 imatges.
 
 
-# Nivell 2 📋
+## Nivell 2 📋
 
 ### Exercici 2
 
