@@ -1,12 +1,11 @@
-
 # IT-Academy: Sprint 2 Bootstrap
 
-_Partint del concepte de Mobile First, volen que facis la HOME PAGE del projecte plantejat al mòdul 1: Anàlisi de projecte. Recorda que si no tens projecte propi, pots utilitzar l'exemple de la botiga de llibres que plantegem._
+_Partint del concepte de Mobile First, volen que facis la HOME PAGE del projecte plantejat al mòdul 1: Anàlisi de projecte._
 
 
 ## Comencem 🚀
 
-_La pràctica es divideix en **2 nivells**._
+_La pràctica es divideix en **2 nivells** Crearem la nostra web amb BS5._
 
 
 # Nivell 1 📋
