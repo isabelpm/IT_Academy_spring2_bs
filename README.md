@@ -29,11 +29,9 @@ En aquest exercici et demanem que personalitzis completament la paleta de colors
 
 
 
-## Previsualización WEB 💻
+## Previsualización WEB 💻  - [Web](https://3l72r.csb.app/)
 
 ![naturafia](https://user-images.githubusercontent.com/67895734/105758314-66ff6200-5f4f-11eb-96cb-248d39982fcc.png)
-
-[Web](https://3l72r.csb.app/)
 
 
 ## Previsualización CÓDIGO ⌨️
