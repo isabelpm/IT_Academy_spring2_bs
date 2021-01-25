@@ -34,8 +34,7 @@ En aquest exercici et demanem que personalitzis completament la paleta de colors
 ![naturafia](https://user-images.githubusercontent.com/67895734/105758314-66ff6200-5f4f-11eb-96cb-248d39982fcc.png)
 
 
-## Previsualización CÓDIGO ⌨️
-[Código](https://codesandbox.io/s/distracted-tu-3l72r?resolutionWidth=898&resolutionHeight=675&file=/css/estilos.css)
+## Previsualización [Código](https://codesandbox.io/s/distracted-tu-3l72r?resolutionWidth=898&resolutionHeight=675&file=/css/estilos.css) ⌨️
 
 
 ## Autora ✒️
