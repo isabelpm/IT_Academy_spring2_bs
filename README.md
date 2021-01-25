@@ -30,8 +30,11 @@ En aquest exercici et demanem que personalitzis completament la paleta de colors
 
 
 
-## Previsualización
-[Naturafia](https://3l72r.csb.app/)
+## Previsualización WEB
+[Web](https://3l72r.csb.app/)
+
+
+## Previsualización CÓDIGO ⌨️
 [Código](https://codesandbox.io/s/distracted-tu-3l72r?resolutionWidth=898&resolutionHeight=675&file=/css/estilos.css)
 
 
